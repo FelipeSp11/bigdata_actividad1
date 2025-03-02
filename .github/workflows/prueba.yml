@@ -1,4 +1,4 @@
-name: prueba_a1ctividad1
+name: Ingesta de datos
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
       - name: paso4 - instalar dependencias
         run: pip install -e .
       - name: paso5 - Ejercutar script
-        run: python script.py
+        run: python src/bigdata/static/ingesta.py
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5

@@ -31,7 +31,7 @@ jobs:
         run: python script.py
 
       - name: Commit and Push changes
-        uses: stefanzweifel/git-auto-commit-actions@v5
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Generacion informe json
           commit_user_name: Felipe Sanchez [GitHub Antions]
